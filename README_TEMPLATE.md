@@ -57,3 +57,4 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## Donations
 This [contributors](https://github.com/your/project/contributors) have been already paid. But if you really enjoy this project or would like to say thanks for this one, you are always welcome)))
+BTC - 93ef82a72446f30b8f82967uu2d7066684502716392baf459ac70f3cb0387b9f
