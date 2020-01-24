@@ -1,0 +1,15 @@
+# Intellij
+.idea
+*.iml
+
+# Target
+target/
+*.log
+
+.mvn/wrapper/maven-wrapper.jar
+
+# Package Files
+*.jar
+*.zip
+*.tar.gz
+*.rar
