@@ -98,6 +98,3 @@ See also the list of [contributors](https://github.com/your/project/contributors
 * [Ardas documentation](https://app.ardas.ua/wiki/display/TEGCXNA/Finance+Manager)
 * [Web site (Stage)](https://dev-productportal.transportexchange.co.uk/finance/overview)
 * [Web site (Live)](https://productportal.transportexchangegroup.com/finance/overview)
-
-## Donations
-This [contributors](https://github.com/your/project/contributors) have been already paid. But if you really enjoy this project or would like to say thanks for this one, you are always welcome)))
