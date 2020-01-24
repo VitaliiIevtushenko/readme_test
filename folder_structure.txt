@@ -1,0 +1,93 @@
+
+
+Fill README
+set .gitignore
+set .editorconfig
+Update checkstyle and pmd rules after review
+Move templates?
+Rename messages folder -> locale?
+Move docker folder (./src/main -> .)?
+Nested modules?
+
+.
+├── .gitignore
+├── .editorconfig
+├── README.md
+├── pom.xml
+├── etc
+│   ├── checkstyle
+│   │   └── checkstyle.xml
+│   └── pmd
+│       └── ruleset.xml
+├── src
+│   ├── main
+│   │   ├── docker
+│   │   │   ├── Dockerfile
+│   │   │   ├── entrypoint.sh
+│   │   │   └── logback.xml
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── transportexchangegroup
+│   │   │           └── project_name
+│   │   │               ├── Application.java
+│   │   │               ├── api
+│   │   │               │   ├── Api.java
+│   │   │               │   ├── VersionController.java
+│   │   │               │   ├── ErrorHandlingController.java
+│   │   │               ├── auth
+│   │   │               ├── config
+│   │   │               ├── dto
+│   │   │               ├── entity
+│   │   │               ├── enums
+│   │   │               ├── exception
+│   │   │               ├── kafka
+│   │   │               ├── redis
+│   │   │               ├── repository
+│   │   │               ├── service
+│   │   │               ├── transformer
+│   │   │               │   ├── DtoMapper.java
+│   │   │               ├── utils
+│   │   │               └── validation
+│   │   └── resources
+│   │       ├── application.properties
+│   │       ├── bootstrap.properties
+│   │       ├── dashboard.properties
+│   │       ├── db
+│   │       │   ├── deffered
+│   │       │   │   ├── V001__.sql
+│   │       │   ├── migration
+│   │       │   │   ├── V001__.sql
+│   │       │   └── sсripts
+│   │       │   │   ├── V001__.sql
+│   │       ├── messages (locale)
+│   │       │   └── messages.properties
+│   │       │   └── messages_de.properties
+│   │       ├── images
+│   │       ├── templates
+│   │       ├── private_key.der
+│   │       └── public_key.der
+│   └── test
+│       ├── java
+│       │   └── com
+│       │       └── transportexchangegroup
+│       │           └── project_name
+│       └── resources
+       
+
+
+(cx-ai-data-aggregation)
+(cx-feedback)
+.
+├── migrationTool
+│    ├── pom.xml
+│    ├── README.md
+│    ├── .gitignore
+│    ├── src
+│	├── main
+
+.
+├── flyway.properties
+├── functions.sh
+├── crowdin.yml (cx-auth)
+├── grafana-dashboard.json (cx-quotes)
+├── mvnw.cmd (cx-replay)
