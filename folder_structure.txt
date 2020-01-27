@@ -19,6 +19,53 @@ Nested modules?
 │   │   └── checkstyle.xml
 │   └── pmd
 │       └── ruleset.xml
+├── docker
+│   ├── Dockerfile
+│   ├── entrypoint.sh
+│   └── logback.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── transportexchangegroup
+│   │   │           └── project_name
+│   │   │               ├── Application.java
+│   │   └── resources
+│   │       ├── application.properties
+│   │       ├── bootstrap.properties
+│   │       ├── dashboard.properties
+│   │       ├── db
+│   │       │   ├── deferred
+│   │       │   │   ├── V001__.sql
+│   │       │   ├── migration
+│   │       │   │   ├── V001__.sql
+│   │       │   └── sсripts
+│   │       │   │   ├── V001__.sql
+│   │       ├── locale
+│   │       │   └── messages.properties
+│   │       │   └── messages_de.properties
+│   │       ├── images
+│   │       ├── templates
+│   │       ├── private_key.der
+│   │       └── public_key.der
+│   └── test
+│       ├── java
+│       │   └── com
+│       │       └── transportexchangegroup
+│       │           └── project_name
+│       └── resources
+
+
+.
+├── .gitignore
+├── .editorconfig
+├── README.md
+├── pom.xml
+├── etc
+│   ├── checkstyle
+│   │   └── checkstyle.xml
+│   └── pmd
+│       └── ruleset.xml
 ├── src
 │   ├── main
 │   │   ├── docker
